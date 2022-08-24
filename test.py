@@ -1,4 +1,7 @@
-i = 0
-while True:
-   print(i)
-   i += 1
+import turtle
+
+adam = turtle.Turtle()
+
+adam.forward(50)
+
+turtle.done()
