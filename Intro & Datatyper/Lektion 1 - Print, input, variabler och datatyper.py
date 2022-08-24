@@ -1,8 +1,13 @@
 
 
 # Variabler
+# Sparar texten hampuse1 i variabeln username
 username = "hampuse1"
+
+# Sparar integern 28 i variabeln age
 age = 28
+
+# Ökar värdet på variabeln age med 1
 age += 1
 
 # print
