@@ -1,3 +1,5 @@
+
+
 # Sparar texten Information writer i variabeln program
 program = "information writer"
 
