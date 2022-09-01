@@ -39,7 +39,7 @@ tries = 0
 logged_in = False
 
 while tries < 3:
-    user1 = input("Username: ")
+    user1 = input("Username:  ")
     pass1 = input("Password: ")
 
     if user1 == username and pass1==password:
