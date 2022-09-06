@@ -10,7 +10,7 @@ adam.speed(0)
 
 # Shape - “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic”
 adam.shape("turtle")
-"""
+
 # Shapesize, pensize
 adam.shapesize(5)
 adam.pensize(5)
@@ -70,7 +70,7 @@ harry.pensize(5)
 harry.goto(100, 150)
 
 print(turtle.distance(adam, harry))
-"""
+
 while True:
     adam.right(7)
     adam.forward(50)

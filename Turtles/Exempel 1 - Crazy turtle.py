@@ -1,9 +1,10 @@
 import turtle, random
 
 adam = turtle.Turtle()
-adam.pensize(3)
-adam.shapesize(1)
-adam.hideturtle()
+adam.pensize(9999)
+adam.shapesize(0.1)
+adam.showturtle()
+adam.speed(0)
 
 while True:
     adam.right(random.randint(1,15))
