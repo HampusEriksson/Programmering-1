@@ -1,11 +1,11 @@
 import random
 
 # Random integer
-a = random.randint(1,50)
+a = random.randint(1,10)
 print(a)
 
 # Random float - uniform
-b = random.uniform(1,50)
+b = random.uniform(1,100)
 print(b)
 
 # Random between 0-1
@@ -23,4 +23,4 @@ print(random.choice(name))
 
 # Random choice
 students = ["Diana", "Rasmus", "Alexander"]
-print("Den som får A i programmering är: ", random.choice(students))
+print("Den som får A i programmering är: ", random.choice(students)):
