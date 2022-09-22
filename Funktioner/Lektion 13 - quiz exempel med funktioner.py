@@ -1,3 +1,5 @@
+import random
+
 def easy_quiz():
     score = 0
     print("Welcome to the easy quiz.")
