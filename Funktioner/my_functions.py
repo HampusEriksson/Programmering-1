@@ -8,6 +8,7 @@ def comp_str(str1, str2):
     else:
         return False
 
+# Denna funktion tar in p och q och returnerar två lösningar
 def pq(p, q):
     under_rot = ((p/2)**2-q)**0.50
 
