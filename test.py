@@ -1,4 +1,5 @@
-name = input("Vad heter du? ")
-age = input(f"Hej {name}, hur gammal är du? ")
+mobiler = ["iPhone 14", "One plus", "Blackberry", "Samsung 22"]
 
-print(f"{name} fyller {age + 1} nästa år.")
+
+for mobil in mobiler:
+    print(mobil)
