@@ -1,4 +1,4 @@
-# Travelbag
+# Loginmeny
 # Skelettkod till uppgiften
 
 accounts = {}
