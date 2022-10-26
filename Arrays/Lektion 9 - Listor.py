@@ -41,7 +41,7 @@ for i, mobil in enumerate(mobiler, start=1):
     print(i, mobil)
 
 # Sum, max, min
-fav_nrs = [218962,521528152,15,51252185,512,521512]
+fav_nrs = [218962, 521528152, 15, 51252185, 512, 521512]
 print(sum(fav_nrs))
 print(max(fav_nrs))
 print(min(fav_nrs))
