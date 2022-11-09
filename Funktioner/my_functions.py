@@ -13,3 +13,12 @@ def pq(p, q):
     under_rot = ((p/2)**2-q)**0.50
 
     return (-p/2 + under_rot, -p/2 - under_rot)
+
+def check_list(stuff : list):
+    """Check_list checks if the paramater is a list, and then runs .pop()"""
+    if isinstance(stuff, list):
+        stuff.pop()
+        return stuff
+    else:
+        print("Parameters was not a list")
+        return False

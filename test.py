@@ -1,5 +1,5 @@
-mobiler = ["iPhone 14", "One plus", "Blackberry", "Samsung 22"]
+mina_tal = []
 
+mina_tal[1] = 0
 
-for mobil in mobiler:
-    print(mobil)
+print(mina_tal)
