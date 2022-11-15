@@ -8,14 +8,14 @@ Lägg till kod så att programmet skriver ”Cazz” istället för talet om det
 
 """
 # FizzBuzzCazz lösning 2
-for i in range(1,69):
+for i in range(1, 69):
     word = ""
     word += "Fizz" if i % 3 == 0 else ""
     word += "Buzz" if i % 5 == 0 else ""
     word += "Cazz" if i % 7 == 0 else ""
 
     print(word if word != "" else i)
-    
+
 """
 # FizzBuzz lösning 1
 for i in range(1,69):
