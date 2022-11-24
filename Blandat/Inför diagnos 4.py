@@ -63,11 +63,28 @@ print(*min_lista)
 
 # Indexerror - Anger ett större index än vad som finns i listan
 # print(min_lista[50])
+# print(min_dict["fadgfask"])
 
 # Kolla om något, i detta fall "Lion", finns i listan
 if "Lion" in min_lista:
     print("Lion finns i listan")
 
+print("Lion" in min_lista)
+
+x = 5
+while x > 3:
+    print("x störra än 3")
+    
+while True:
+    pass
+print(x > 3)
+
 # Byt plats på två element i en lista
 min_lista[1], min_lista[2] = min_lista[2], min_lista[1]
 
+min_lista[1] = min_lista[2]
+min_lista[2] = min_lista[1] 
+
+a, b, c = 6, 90, 3
+a = b # a blir 90
+b = a # b blir 90
