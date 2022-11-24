@@ -1,4 +1,3 @@
-teachers = {"Oskar":"English", "Alex":"Historia"}
+personnummer = input("Enter your personal number YYMMDD-XXXX")
 
-for key, val in teachers.items():
-    print(key, ":", val)
+print(personnummer[:6])
