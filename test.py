@@ -1,3 +1,4 @@
-personnummer = input("Enter your personal number YYMMDD-XXXX")
+def test(a,b):
+    print(a+b)
 
-print(personnummer[:6])
+test(5)
