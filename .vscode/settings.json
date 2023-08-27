@@ -1,19 +1,23 @@
 {
-  "python.formatting.provider": "black",
-  "settings.cycle": [{
-    "id": "lineNumbers",
-    "values":[
+  "python.formatting.provider": "none",
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "values": [
         {
-            "editor.lineNumbers": "off",
-            "editor.folding": false,
-            "editor.glyphMargin": false
+          "editor.lineNumbers": "off",
+          "editor.folding": false,
+          "editor.glyphMargin": false
         },
         {
-            "editor.lineNumbers": "on",
-            "editor.folding": true,
-            "editor.glyphMargin": true
-
+          "editor.lineNumbers": "on",
+          "editor.folding": true,
+          "editor.glyphMargin": true
         }
-    ]
-}],
+      ]
+    }
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
