@@ -1,4 +1,2 @@
-def test(a,b):
-    print(a+b)
-
-test(5)
+for i in range(100):
+    print(i)
