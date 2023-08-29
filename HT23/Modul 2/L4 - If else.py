@@ -10,13 +10,35 @@ print(5 < 7)
 age = int(input("How old are you?"))
 
 # if
-# elif
+if age < 18:
+    print("You are not an adult.")
+elif age > 100:
+    print("You gonna die soon.")
+elif age > 65:
+    print("You are retired.")
 # else
+else:
+    print("You are an adult between 18 and 65.")
+
+
+mood = input("Mår du bra?").capitalize()
 
 # .lower, .upper, .capitalize
+if mood == "Ja" or mood == "Ja, väldigt bra":
+    print("Vad härligt!")
+else:
+    print("Åh nej")
 
+
+fruit = input("Name a fruit.").lower()
 # or - exempel 1
+if fruit == "apple" or fruit == "orange" or fruit == "pear" or fruit == "peach":
+    print("Correct, thats a fruit.")
+
 # or - exempel 2
+fruits = ["apple", "orange", "peach", "pear"]
+if fruit in fruits:
+    print("Correct, thats a fruit.")
 
 # and
 

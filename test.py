@@ -1,2 +1,2 @@
-for i in range(100):
-    print(i)
+svar = input("Vad är ditt svar?").lower()
+print(svar)
