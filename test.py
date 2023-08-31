@@ -1,2 +1,6 @@
-svar = input("Vad är ditt svar?").lower()
-print(svar)
+
+
+ord = "human"
+
+print(ord[2])
+
