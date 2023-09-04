@@ -1,26 +1,15 @@
 import random
 
-# Random integer
-a = random.randint(1,10)
-print(a)
+# Random integer - randint(min, max)
 
-# Random float - uniform
-b = random.uniform(1,100)
-print(b)
+# Random float - uniform(min, max)
 
-# Random between 0-1
-c = random.random()
-print(c)
+# Random between 0-1 - random.random()
 
 # Slump med procent
-if c > 0.9:
-    print("You were very lucky.")
 
-# Random letters
-name = "sebastian vettel"
 
-print(random.choice(name))
+# Random letters - choice
 
-# Random choice
-students = ["Diana", "Rasmus", "Alexander"]
-print("Den som får A i programmering är: ", random.choice(students)):
+
+# Random from list - choice
