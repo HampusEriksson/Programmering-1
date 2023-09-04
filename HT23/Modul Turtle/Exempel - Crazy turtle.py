@@ -1,7 +1,7 @@
 import turtle, random
 
 adam = turtle.Turtle()
-adam.pensize(9999)
+adam.pensize(5)
 adam.shapesize(0.1)
 adam.showturtle()
 adam.speed(0)
