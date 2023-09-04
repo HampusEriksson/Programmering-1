@@ -52,9 +52,17 @@ padda.circle(100, 360, 4)
 padda.dot(300, "yellow")
 
 # Få data från turtle .pos, .xcor, .ycor, .heading
+print(padda.pos())
+padda.xcor()
 
+if abs(padda.xcor()) > 400 or abs(padda.ycor()) > 400:
+    padda.goto(0,0)
 
 # Distance (a,b)
+krokodil = turtle.Turtle()
+
+if padda.distance(krokodil) < 10:
+    print("Oj vad de är nära varandra")
 
 # Skriv turtle.done() för att fönstret ska vara kvar öppet
 turtle.done()
