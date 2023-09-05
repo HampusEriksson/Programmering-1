@@ -1,5 +1,9 @@
 # Importerar turtle
-import turtle, random, time
+import turtle, random
+
+# Create a Turtle screen
+screen = turtle.Screen()
+screen.bgcolor("white")
 
 # Skapar en turtle
 fares = turtle.Turtle()
@@ -15,6 +19,8 @@ batin.penup()
 def up():
     fares.seth(90)
     fares.forward(20)
+    # skulle också kunna skriva:
+    # fares.sety(fares.ycor() + 20)
 
 def down():
     fares.seth(270)
@@ -33,19 +39,19 @@ def click(x,y):
     
 
 # Säger att funktionen space ska användas när space klickas
-turtle.onkey(up,'Up')
-turtle.onkey(down,'Down')
-turtle.onkey(right,'Right')
-turtle.onkey(left,'Left')
+screen.onkey(up,'Up')
+screen.onkey(down,'Down')
+screen.onkey(right,'Right')
+screen.onkey(left,'Left')
 
 # Säger att funktionen click ska användas när space klickas
-# turtle.onscreenclick(click)
+screen.onscreenclick(click)
 
-turtle.listen()
+screen.listen()
 
 while True:
-    dis = ((fares.xcor()-batin.xcor())**2 + (fares.ycor()-batin.ycor())**2)**0.5
-    if dis < 50:
+    if fares.distance(batin) < 50:
         batin.goto(random.randint(-400,400), random.randint(-400,400))
+
+    screen.update()
         
-turtle.mainloop()
