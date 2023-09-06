@@ -3,7 +3,7 @@ import turtle, random
 
 # Create a Turtle screen
 screen = turtle.Screen()
-screen.bgcolor("white")
+screen.bgcolor("blue")
 
 # Skapar en turtle
 fares = turtle.Turtle()
@@ -40,7 +40,7 @@ def click(x,y):
 
 # Säger att funktionen space ska användas när space klickas
 screen.onkey(up,'Up')
-screen.onkey(down,'Down')
+screen.onkey(down,"Down")
 screen.onkey(right,'Right')
 screen.onkey(left,'Left')
 
@@ -49,9 +49,15 @@ screen.onscreenclick(click)
 
 screen.listen()
 
+# Skapar en loop som gör att skärmen inte stängs
 while True:
     if fares.distance(batin) < 50:
         batin.goto(random.randint(-400,400), random.randint(-400,400))
+    elif fares.distance(batin) < 20:
+        batin.goto(random.randint(-400,400), random.randint(-400,400))
+    else:
+        fares.forward(1)
 
+      
     screen.update()
         
