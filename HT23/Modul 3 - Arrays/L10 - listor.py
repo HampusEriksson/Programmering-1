@@ -61,5 +61,13 @@ print(*students)
 
 # Kolla om något finns i en lista
 check = input("What would you like to check? ")
+
+
 if check in inventory:
-    print("You have an axe!")
+    print(f"You have an {check}!")
+
+elif "axe" in inventory:
+    print("You have an axe!")  
+
+else:
+    print(f"You don't have an {check}!")
