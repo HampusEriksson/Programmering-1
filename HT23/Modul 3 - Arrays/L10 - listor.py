@@ -58,3 +58,8 @@ print(min(my_numbers))
 # Lista som input
 students = input("Name all your students, separated by space: ").split(" ")
 print(*students)
+
+# Kolla om något finns i en lista
+check = input("What would you like to check? ")
+if check in inventory:
+    print("You have an axe!")
