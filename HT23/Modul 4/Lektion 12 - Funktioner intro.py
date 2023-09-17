@@ -3,13 +3,11 @@
 # Skapa en funktion
 
 
-# Varför - exempel
+# Varför - exempel - print_score
 
 # Parametrar - exempel
 # f(x)
 # Returnera
 
 
-
 # Default värden - raised
-
