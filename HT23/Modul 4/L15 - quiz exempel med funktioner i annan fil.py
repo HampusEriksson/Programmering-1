@@ -1,7 +1,6 @@
-# Importera funktionen easy_quiz från filen easy.py
-from easy import easy_quiz
-from hard import hard_quiz
+from my_functions import easy_quiz, hard_quiz
 
+    
 name = input("Name: ")
 
 while True:
@@ -11,6 +10,8 @@ while True:
     if difficulty == "easy":
         easy_quiz()
         
+
+
     elif difficulty == "hard":
         hard_quiz()
 
