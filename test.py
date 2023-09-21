@@ -1,5 +1,5 @@
-def vilgot():
-    return (1,2)
+is_valid = True
+result = is_valid and "Valid" or "Invalid"
+print(result)
 
-a = vilgot()
-print(a[0])
+result = "Valid" if is_valid else "Invalid"
