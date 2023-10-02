@@ -1,5 +1,13 @@
-is_valid = True
-result = is_valid and "Valid" or "Invalid"
-print(result)
+def a():
+    print('a')
 
-result = "Valid" if is_valid else "Invalid"
+def b():
+    print('b')
+
+a()
+b()
+
+def generic(x, y):
+    print(x)
+
+generic("a", "Inte a")
