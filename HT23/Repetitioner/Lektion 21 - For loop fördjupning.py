@@ -1,46 +1,40 @@
 import random
-students = ["Batin", "Alec", "Yassin", "Diana", "Lion", "Hundaol", "Rasmus", "Lucia", "Robert", "Isak"]
-
 
 # For-loop
 for _ in range(10):
-    print("Hej")
+    print("Ni får prata om klippning sen.")
 
 # Loop-variabel
-for i in range(10): # (start = 0, stop = 10, step = 1)
+for i in range(100):
     print(i)
 
 # start, stop, step
-for i in range(100,9,-2):
+for i in range(10, 115, 7):
     print(i)
 
 
+students = ["Erik", "Vilgot", "Marcus", "Tom", "Daiki", "Egli"]
 # Loopa lista
-
 for student in students:
     print(student)
 
+# Enumerate
 for index, student in enumerate(students):
-    if random.random() <= 0.2:
-        print(f"{student} got kicked from the class. Impostor replaces.")
-        students[index] = "Impostor"
-    else:
-        print(f"{student} gets to stay in the class.")
-    input()
+    if random.random() <=0.9:
+        students[index] = "MARKUS"
 
+print(students)
 
 # For else
-for index, student in enumerate(students):
-    if random.random() <= 0.01:
-        print(f"{student} got kicked from the class. Impostor replaces.")
-        students[index] = "Impostor"
-        break
-    else:
-        print(f"{student} gets to stay in the class.")
+students = ["Erik", "Vilgot", "Marcus", "Tom", "Daiki", "Egli", "Mattias"]
 
-# else körs om break inte körts i for-loop ovan
+for student in students:
+    if student == "Mattias":
+        break
+
 else:
-    print("Noone got kicked from the class.")
+    print("For-loopen breakade inte")
+
 
 # Nästlade for-loopar
 enemy_pos = [(random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100))]
