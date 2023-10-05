@@ -35,6 +35,12 @@ for student in students:
 else:
     print("For-loopen breakade inte")
 
+for a in [1,2,3,4,5]:
+    if a == 6:
+        break
+
+else:
+    print("For-loopen breakade inte")
 
 # Nästlade for-loopar
 enemy_pos = [(random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100)), (random.randint(1,100), random.randint(1,100))]
