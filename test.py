@@ -1,2 +1,3 @@
-for i in 5:
-    print(i)
+# print("Hej")
+print("Goddag")
+# print("Bye")
