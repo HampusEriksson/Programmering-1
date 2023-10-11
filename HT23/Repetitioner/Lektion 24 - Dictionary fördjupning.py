@@ -14,8 +14,12 @@ grade_values = {"A":20, "B":17.5, "C":15,"D":12.5, "E":10, "F":0, "-":0}
 grades = {"Teknik 1": "A", "Fysik 1" : "D"}
 course_points = {"Teknik 1" : 150, "Fysik 1": 150, "Historia 1a": 50}
 
-for x,y in grade_values.items():
-    print(x,y)
+
+stats = {"str" : 10, "dex":20, "int":3000}
+
+
+for grade,point in grade_values.items():
+    print(f"{grade} : {point}")
 
 while True:
     menyval = input("\n1. Kolla betyg\n"
