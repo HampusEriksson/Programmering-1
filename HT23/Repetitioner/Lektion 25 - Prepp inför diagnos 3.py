@@ -32,7 +32,13 @@ transport.remove("Plane")
 # Ta bort med index och eventuellt spara
 later = transport.pop(0)
 
+# Indexerror = ett index som inte finns
 print(transport[-100])
+
+if "Boat" in transport:
+    print("Boat is in the list")
+
+transport[0], transport[1] = transport[1], transport[0]
 
 for t in transport:
     print(t)
