@@ -1,46 +1,45 @@
-# Import my_functions
-
-from my_functions import check_list
+import random
+from my_awesome_functions import remove_random_element as rem_ran
+from karaktär_skreen import load_character as load
 
 
 # https://www.w3schools.com/python/python_functions.asp
 # Skapa funktion
 def f(x):
-    y = x * 3 + 70
-    return y
+    return x**2 + 5
 
-
-def f2(x):
-    y = x * 3 + 70
-    print(y)
-
-
-f15 = f(15)
-print(f15)
-print(f(127))
+f5 = f(5)
+print(f(5))
+print(f5)
 
 # Parametrar - det som skickas in till funktionen
 # Datatyper på parametrar
 # docstring
 
 
-mobiler = ["iPhone 14", "One plus", "Blackberry", "Samsung 22"]
+bananas= ["Yellow banana", "Long banana", "kokbanan", "Skalad banan"]
+rem_ran(bananas)
+print(bananas)
 
-check_list(mobiler)
-check_list("fiasgufoasgo")
+def y(x):
+    x = 10
 
+x = 5
+y(x)
+print(x)
 
-def func(x, y):
-    return x + y
-
-
-print(func(5, 13))
+x += 5
+x = x + 5
 
 # Lambda
 # variabelnamn = lambda parameter1, parameter2 : returdata
-func2 = lambda x, y: x + y
 
-print(func2(5, 13))
+# def g(x,y):
+#     return x*y
+
+g = lambda x,y : x * y
+
+print(g(5,10))
 
 
 # sortera list av tuples
