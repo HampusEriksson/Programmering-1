@@ -1,4 +1,15 @@
 """
+E
+Eleven anpassar med viss säkerhet sin planering av programmeringsuppgiften
+ och utför felsökning 
+ av enkla syntaxfel.
+
+C
+Eleven anpassar med viss säkerhet sin planering av programmeringsuppgiften
+och utför på ett systematiskt sätt felsökning 
+av syntaxfel, körtidsfel och programmeringslogiska fel.
+
+A
 Eleven anpassar med säkerhet sin planering av programmeringsuppgiften 
 och utför på ett systematiskt och effektivt sätt felsökning 
 av syntaxfel, körtidsfel och programmeringslogiska fel.
@@ -14,7 +25,6 @@ print("Hello, world!)
 
 # TypeError
 print("5" + 5)
-
 
 # NameError
 print(variable_that_does_not_exist)
