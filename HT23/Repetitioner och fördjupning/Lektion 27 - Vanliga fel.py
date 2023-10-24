@@ -18,7 +18,13 @@ av syntaxfel, körtidsfel och programmeringslogiska fel.
 # SYNTAXFEL - Går att se innan koden körs
 
 # SyntaxError
-print("Hello, world!)
+print("Hello, world!"
+      
+
+
+
+
+
       
 
 # KÖRTIDSFEL - Går att se när koden körs
@@ -31,7 +37,7 @@ print(variable_that_does_not_exist)
 
 # IndexError
 my_list = [1, 2, 3]
-print(my_list[3])
+print(my_list[7])
 
 # ValueError
 int("hello")
