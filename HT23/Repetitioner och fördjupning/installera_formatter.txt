@@ -1,0 +1,7 @@
+1. Skriv "pip install black" i terminalen
+2. Öppna inställningar - kugghjul nere i vänstra hörnet
+3. Klicka på workspace
+4. Sök på @id:editor.defaultFormatter @lang:python format
+5. Välj black
+6. Sök på format on save
+7. Klicka i format on save
