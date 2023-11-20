@@ -78,9 +78,9 @@ karaktär = {
     "vapen": "svärd",
 }
 
-while True:
-    position = "utanför"
+position = "utanför"
 
+while True:
     if position == "utanför":
         position = utanför(karaktär)
     elif position == "hall":
