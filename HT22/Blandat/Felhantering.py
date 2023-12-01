@@ -49,10 +49,13 @@ while True:
 while True:
     personnummer = input("Enter your personal number YYMMDD-XXXX")
 
-    if personnummer[:6].isdigit() and personnummer[-4:].isdigit() and len(personnummer) == 11 and personnummer[6] == "-":
+    if (
+        personnummer[:6].isdigit()
+        and personnummer[-4:].isdigit()
+        and len(personnummer) == 11
+        and personnummer[6] == "-"
+    ):
         print("Thank you for entering your personalnumber correctly.")
         break
     else:
         print("dumbass")
-
-    
