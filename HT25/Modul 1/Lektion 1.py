@@ -1,1 +1,12 @@
-print("Hello world")
+
+
+# Variabler
+
+
+
+# print
+
+# input
+
+
+
