@@ -1,8 +1,8 @@
 # Omvandla input till int
-# age = int(input("What is your age?"))
+age = int(input("What is your age?"))
 
 
-# print(f"Om 10 år är du {age+10} år gammal.")
+print(f"Om 10 år är du {age+10} år gammal.")
 
 a = 5
 b = 7
@@ -18,6 +18,9 @@ print(a*b)
 print(a/b)
 # Upphöjt i
 print(5**7)
+
+# Roten ur
+print(9**0.5)
 
 # Floor division
 print(37 // 3)
