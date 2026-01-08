@@ -18,6 +18,11 @@ print(f"{name} är {age} år gammal och är {length} m lång.")
 food = input("What is your favorite food? ")
 print(f"{food} is your favorite food.")
 
+# Typkonvertering: str(), int(), float()
+your_age = int(input("What is your age? "))
+
+print(f"{your_age*2} is your double age.")
+
 # Beräkningar: +, -, *, /
 
 print(2+2)
@@ -33,9 +38,4 @@ print(9**(0.5))
 
 # // floor division
 print(38//3)
-
-# Typkonvertering: str(), int(), float()
-your_age = int(input("What is your age? "))
-
-print(f"{your_age*2} is your double age.")
 
