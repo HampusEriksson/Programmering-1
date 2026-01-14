@@ -1,41 +1,35 @@
 # Datatyper - str - text
-"Hampus"
 # Citattecken = shift + 2
-
-# Datatyper - int - heltal
-51965
-
-# Datatyper - float - decimaltal
-218956.498316
-
-# print
-print("Välkommen till programmet!")
-print(17)
-print(531.312)
-print(5+5)
+"Hampus"
+"dator"
 
 # Variabler  
-
-username = "Noob13"
+# variabel_namn = värde
+username = "hampuse1"
 print(username)
-username = "NoobKiller64"
-print(username)
+# input
+your_username = input("Username?")
 
-score = 0
-print(score)
+print(your_username)
 
-score += 1
-print(score)
+# Datatyper - int - heltal
+age = 32
+
+print(age)
+
+# Datatyper - float - decimaltal
+pi = 3.14159265
+radie = 2
+
+print(pi * radie * radie)
+
+# print
 
 # input
-username = input("Username: ")
-password = input("Password: ")
-
-print(username)
-print(password)
 
 # formattera string
 # {} alt gr + 7
-print(f"Välkommen till programmet {username}!")
+namn = input("What is your 'name'? ")
+age = int(input("How old are you? "))
 
-print("Välkommen till programmet username!")
+print(f"Välkommen {namn}, du är {age} år gammal.")
