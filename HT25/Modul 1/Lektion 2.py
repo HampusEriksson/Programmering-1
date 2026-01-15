@@ -1,34 +1,42 @@
 # Omvandla input till int
-age = int(input("What is your age?"))
 
+# length = int(input("How tall are you?      "))
 
-print(f"Om 10 år är du {age+10} år gammal.")
+#print("Welcome!")
+#print(f"You are {length} cm tall.")
 
-a = 5
-b = 7
+x = 27
+y = 98
+z = 0
 
 # Addition
-print(a+b)
+print(x+y)
+
 # Subtraktion
-print(a-b)
+print(x-y)
+
 
 # Multiplikation
-print(a*b)
+print(x*z)
+
 # Division
-print(a/b)
-# Upphöjt i
-print(5**7)
+print(x/y)
+print(9/3)
+
+# Upphöjt i - **
+print(x**2)
+# 3 upphöjt i 5
+print(3**5)
 
 # Roten ur
-print(9**0.5)
+print(9**(1/2))
 
 # Floor division
-print(37 // 3)
+print(17 // 3)
 
 # Modulo
-print(37 % 5)
+print(17 % 3)
 
-# Udda tal
-print(3 % 2)
-# Jämna tal
-print(8 % 2)
+# Udda tal & Jämna tal
+print(17 % 2)
+print(28 % 2)

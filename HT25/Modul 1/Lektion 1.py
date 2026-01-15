@@ -17,6 +17,9 @@ age = 32
 
 print(age)
 
+# Ökar age med 1
+age += 1
+
 # Datatyper - float - decimaltal
 pi = 3.14159265
 radie = 2
