@@ -9,7 +9,7 @@ print(5 > 7)
 
 age = int(input("How old are you?"))
 
-# if else
+# if else - kontrollstruktur
 if (age < 12):
     print("Du har långt kvar till bilen")
 elif (age < 18):
@@ -19,16 +19,17 @@ elif (age >= 75):
 else:
     print("Du får övningsköra.")
 
-# .lower, .upper, .capitalize
+# .lower() (små bokstäver), .upper() (stora bokstäver)
+# .capitalize() (första bokstaven stor, resten små)
+# or
 glass = input("Vill du ha glass?")
-glass = glass.lower()
+glass = glass.capitalize()
 
-if (glass == "ja"):
+if (glass == "Ja") or (glass =="Yes"):
     print("Här får du glass.")
 else:
     print("Du får inte glass.")
 
-# or - exempel 1
 
 
 # and
