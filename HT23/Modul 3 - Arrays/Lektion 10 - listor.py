@@ -1,4 +1,3 @@
-# Genomgång från HT21: https://www.youtube.com/watch?v=lkTwC7rn148&ab_channel=HampusEriksson
 
 
 # Skapa en lista - square brackets - alt gr + 8
