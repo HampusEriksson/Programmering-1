@@ -1,54 +1,73 @@
 
+student1 = "Anna"
+student2 = "Erik"
+student3 = "Sofia"
+student4 = "Lucas"
+student5 = "Emma"
+student6 = "Oscar"
+student7 = "Maja"
+student8 = "William"
+student9 = "Elsa"
+student10 = "Hugo"
+student11 = "Alice"
+student12 = "Alexander"
+student13 = "Linnea"
+student14 = "Filip"
+student15 = "Ida"
+student16 = "Simon"
+student17 = "Olivia"
+student18 = "Viktor"
+student19 = "Ebba"
+student20 = "Nils"
+student21 = "Cornelis"
 
-item1 = "Sword"
-item2 = "Shield"
-item3 = "Health Potion"
-item4 = "Magical Ring"
-item5 = "Arrow"
-item6 = "Armor"
-item7 = "Fireball"
-item8 = "Frost Potion"
-item9 = "Magic Staff"
-item10 = "Leather Gloves"
-item11 = "Poison Daggers"
-item12 = "Beauty Bag"
-item13 = "Gold Coin"
-item14 = "Dragon Skin"
-item15 = "Wisdom Tablet"
-item16 = "Healing Stones"
-item17 = "Invisibility Cloak"
-item18 = "Strength Elixir"
-item19 = "Ancient Key"
-item20 = "Spell Book"
-
-# Print whole inventory
-print(f"{item1}, {item2}, {item3}, {item4}, {item5}, {item6}, {item7}, {item8}, {item9}, {item10}, {item11}, {item12}, {item13}, {item14}, {item15}, {item16}, {item17}, {item18}, {item19}, {item20}")
+# Print all students
+print(f"Students: {student1}, {student2}, {student3}, {student4}, {student5}, {student6}, {student7}, {student8}, {student9}, {student10}, {student11}, {student12}, {student13}, {student14}, {student15}, {student16}, {student17}, {student18}, {student19}, {student20}, {student21}")
 
 # Skapa en lista - square brackets - alt gr + 8
+inventory = ["Cobble stone", "Golden apple", "Leather shield"]
 
-# len()
+print(inventory)
 
+# Printa ut listor - använd * unpack
+print(*inventory)
 
 # Index - börjar på 0
-
+print(inventory[0])
+print(f"Den första saken i ditt inventory är {inventory[0]}")
 
 # Index bakvänt - börjar på -1
+print(inventory[-2])
 
 
 # Lägga till - append
+inventory.append("Torch")
+inventory.append("Pickaxe")
+inventory.append(7)
 
+inventory.append(input("Vad vill du lägga till?"))
+
+item = input("Vad vill du lägga till?")
+inventory.append(item)
 
 # Ta bort med värde - remove
+if 1 == 1:
+    inventory.remove("Golden apple")
 
-
-
-# Ta ut med index - pop
-
-
-# Sortera
-
-
-# Printa ut listor - använd * unpack
+print(*inventory)
 
 
 # Kolla om något finns i en lista
+question = input("Vad vill du kolla efter i ditt inventory? ")
+
+if question in inventory:
+    print(f"{question} is in the inventory.")
+else:
+    print(f"{question} is not in the inventory.")
+
+
+
+
+
+
+
