@@ -47,5 +47,5 @@ padda.speed(0)
 for i in range(1000):
     padda.right(i*10)
     padda.forward(50)
-
+    padda.color(random.random(), random.random(), random.random())
 turtle.done()
