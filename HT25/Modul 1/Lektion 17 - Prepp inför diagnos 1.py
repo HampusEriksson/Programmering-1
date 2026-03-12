@@ -1,22 +1,27 @@
 # För att skriva ut på skärmen behöver du använda en specifik funktion. Vad heter den? Hur fungerar den?
-
+print("Såhär skriver du ut")
 # Funktionen som hänvisas till i fråga 1 har två parametrar vi kan ändra på om vi vill. Vilka är dessa? (Alltså de Hampus har nämnt, det finns mer än 2.)
 
 # Vad är en sträng?
 # En sträng är en text
 
 # Vi kan skriva strängar på två sätt i Python. Vilka då?
-
+f"{5+5} kan jag räkna ut"
+"string"
+"""här är flera
+rader"""
+'det här är samma sak som dubbla citattecken'
 # Om du ska skriva ett stort stycke text finns ett särskilt sätt att skriva. Hur gör du det?
 
 # När du ska ta in data från användaren, vilken funktion använder du då?
-
-# Vilken variabeltyp ger funktionen som hänvisas till i fråga 6 som standard?
-# string
+# input ger string som default
+namn = input("Vad heter du?")
 
 # Hur kan du ändra variabeltypen som funktionen som hänvisas till i fråga 6 ger?
+age = int(input("Hur gammal är du?"))
 
 # Om du vill göra ny rad i en text, vad skriver du då?
+print("Novak är bra.\nÄven alla andra är bra.")
 
 # Vad är en variabel?
 # Ett värde på något man har gjort, som man vill spara
@@ -56,7 +61,7 @@ Också"""
 
 # modulo %
 # power to/upphöjt i **
-
+2 ** 3
 # Vilken datatyp blir det i slutändan om du adderar en float och en integer?
 # float
 # Vilken datatyp blir det i slutändan om du använder division?
