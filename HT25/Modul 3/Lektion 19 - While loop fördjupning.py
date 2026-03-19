@@ -23,12 +23,30 @@ if logged_in == True:
 
 
 
-
 # isdigit
+age = input("Skriv in din ålder: ")
+while True:
 
-
+    if age.isdigit():
+        age = int(age)
+        break
+    else:
+        age = input("Du måste skriva ett tal. \nSkriv in din ålder: ")
 
 # Walrus
+password = "ja"
+login = input("Vad är lösenordet? ")
+
+while login != password:
+    login = input("Fel lösenord, vad är lösenordet? ")
+    
+password = "ja"
+
+while login := input("Vad är lösenordet? ") != password:
+    print("Fel lösenord")
+
+
+
 
 
 
