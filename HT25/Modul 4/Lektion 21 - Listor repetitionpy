@@ -1,0 +1,42 @@
+# arrays - kan lagra flera olika data
+import random
+
+# Skapa en lista - square brackets - alt gr + 8
+
+# len()
+
+# Index - börjar på 0
+
+# Index bakvänt - börjar på -1
+
+# Lägga till - append
+
+# Ta bort - remove
+
+# Ta ut - pop
+
+# Sortera
+
+# Printa ut listor - använd * unpack
+
+
+# slumpa lista - dåligt sätt
+# slumpa lista - bra sätt
+
+# ta ut random sak från lista
+
+# Loopa igenom listor
+
+# Loopa igenom listor - enumerate
+
+
+# Sum, max, min
+
+#avg
+
+
+
+
+# if in list
+
+# Lista som input - split
