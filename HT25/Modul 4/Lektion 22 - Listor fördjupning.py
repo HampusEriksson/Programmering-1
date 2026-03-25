@@ -11,3 +11,5 @@ nummer[2] = nummer[0]
 
 
 # lista som parameter i funktion
+
+# Slice

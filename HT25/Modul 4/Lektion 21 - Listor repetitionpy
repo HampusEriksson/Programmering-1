@@ -2,22 +2,36 @@
 import random
 
 # Skapa en lista - square brackets - alt gr + 8
+students = ["Adam", "Cornelis"]
 
+while True:
+
+    val = input("""1. Lägg till elev
+                2. Ta bort elev på namn
+                3. Ta bort elev på index
+                4. Skriva ut alla elever
+                5. Skriva ut alla elever med index
+                9.Avsluta\n""")
+    if val == "1":
+        new_student = input("Vem vill du lägga till?").capitalize()
+        students.append(new_student)
+    elif val == "2":
+        del_student = input("Vem vill du ta bort?").capitalize()
+        students.remove(del_student)
+    elif val == "3":
+        index_remove = int(input("Vilket index vill du ta bort?"))
+        students.pop(index_remove)
+    elif val == "4":
+        print(*students)
+    elif val == "5":
+        for index, student in enumerate(students):
+            print(f"{index} : {student}")
 # len()
 
 # Index - börjar på 0
-
 # Index bakvänt - börjar på -1
-
-# Lägga till - append
-
-# Ta bort - remove
-
-# Ta ut - pop
-
-# Sortera
-
-# Printa ut listor - använd * unpack
+# Om index inte finns
+students[4]
 
 
 # slumpa lista - dåligt sätt
@@ -25,9 +39,7 @@ import random
 
 # ta ut random sak från lista
 
-# Loopa igenom listor
 
-# Loopa igenom listor - enumerate
 
 
 # Sum, max, min
