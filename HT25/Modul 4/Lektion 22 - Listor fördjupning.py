@@ -44,9 +44,9 @@ inventory2.append("Shield")
 print(*inventory)
 
 
-# Slice
 nummer = [i for i in range(1,101)]
 
+# Slice
 # [start:stop:step]
 print(nummer[3:17:4])
 print(nummer[:len(nummer)//2])
